@@ -1,7 +1,74 @@
 body { 
     font-size: 33px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: papayawhip;
+    background-color: white;
     color:black;
 
 }
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+.bouton{
+
+    background-color: rgb(9, 16, 79);
+    padding: 15px;
+
+}
+.home{
+    text-decoration: underline;
+
+}.ligne{
+line-height: 3px;
+background-color: black;
+}
+a{
+    text-decoration: none;
+
+}
+.img{
+    width: 100px;
+}
+.container{
+display: flex;
+flex-direction:row;
+justify-content: flex-end;
+}
+.home{
+color: black;
+
+}
+.ABOUT{
+color: black;
+
+}
+.services{
+color: black;
+
+}
+.our-work{
+color:black;
+
+}
+.bouton{
+color: white;
+
+}
+
+
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.header{
+line-height: 40px;
+
+
+}
+.ligne{
+height: 1px;
+background-color: black;
+}
+
